@@ -1,8 +1,8 @@
 function App() {
   return (
     <main>
-      <h1>Hi, I'm (your name)</h1>
-      <img alt="My profile pic" src="https://via.placeholder.com/350" />
+      <h1>Hi, I'm Emmanuel</h1>
+      <img alt="My profile pic" src="https://img.freepik.com/free-psd/3d-illustration-person-with-glasses_23-2149436189.jpg?size=626&ext=jpg&ga=GA1.1.330517422.1715855935&semt=sph" />
       <h2>About Me</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -18,6 +18,16 @@ function App() {
         <a href="https://github.com">GitHub</a>
         <a href="https://linkedin.com">LinkedIn</a>
       </div>
+      <form>
+        <input type="text" placeholder="name" />
+        <input type="text" placeholder="email address" />
+        <input type="checkbox" 
+        id="newsletters" />
+        <label htmlFor="newsletters">Newsletter</label>
+        <input type="checkbox" />
+        <input type="checkbox" />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   );
 }
